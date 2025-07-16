@@ -6,9 +6,12 @@ const PORT = 8000;
 
 const server = http.createServer(async (req, res) => {
     const destinations = await getDataFromDb();
-    console.log(destinations, req.url, req.method);
+
     if(req.url === '/api' && req.method==='GET'){
-        res.end(JSON.stringify(destinations))
+        res.setHeader("Content-Type", "application/json");
+        res.statusCode = 200;
+        res.end(JSON.stringify(destinations));
+
     }
 });
 
