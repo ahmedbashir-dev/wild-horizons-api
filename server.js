@@ -1,6 +1,6 @@
 import http from 'node:http';
 import { getDataFromDb } from './database/db.js';
-import { sendResponseWithHeaderAndStatus, JSON_MIME, HTTP_OK, HTTP_NOT_FOUND, getDataByPathParams } from './utils/utils.js';
+import { sendResponseWithHeaderAndStatus, JSON_MIME, HTTP_OK, HTTP_NOT_FOUND, getDataByPathParams, getDataByQueryParams } from './utils/utils.js';
 
 const PORT = 8000;
 
@@ -8,8 +8,13 @@ const PORT = 8000;
 const server = http.createServer(async (req, res) => {
     const destinations = await getDataFromDb();
 
-    if (req.url === '/api' && req.method === 'GET') {
-        sendResponseWithHeaderAndStatus(res, JSON_MIME, HTTP_OK, destinations)
+    const urlObj = new URL(req.url, `http://${req.headers.host}`);
+    const queryObj = Object.fromEntries(urlObj.searchParams);
+
+    if (urlObj.pathname === '/api' && req.method === 'GET') {
+        let filteredData = getDataByQueryParams(destinations, queryObj);
+        
+        sendResponseWithHeaderAndStatus(res, JSON_MIME, HTTP_OK, filteredData)
     }
     else if (req.url.startsWith("/api/continent") && req.method === 'GET') {
         const continent = req.url.split("/").pop();
