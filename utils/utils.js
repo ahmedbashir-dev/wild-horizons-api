@@ -1,5 +1,7 @@
 export function sendResponseWithHeaderAndStatus(res,contentType, statusCode, data){
     res.setHeader('Content-Type', contentType);
+    res.setHeader('Access-Control-Allow-Origin', "*"); // allow access from any domain
+    res.setHeader('Access-Control-Allow-Methods', "GET"); // allow access to GET method only
     res.statusCode = statusCode;
     res.end(JSON.stringify(data));
 }
