@@ -1,4 +1,19 @@
+# 🌍 Wild Horizons API
 
+**Wild Horizons API** is a simple, read-only REST API built using **vanilla Node.js**, designed as part of the _Learn Node.js_ course by Scrimba. It provides fascinating data about natural wonders and extraordinary geographic locations across the globe.
+
+This project is ideal for learning how APIs work without relying on frameworks or external databases.
+
+---
+
+## 🔧 Features
+
+- Built using core Node.js modules (no frameworks)
+- Serves JSON data of 20+ real and unique natural wonders
+- RESTful endpoints (GET-only)
+- Great for frontend project mock data or learning API integration
+
+---
 ## API Reference
 The API supports the GET endpoints only.
 
