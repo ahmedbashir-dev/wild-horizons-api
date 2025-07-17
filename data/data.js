@@ -335,5 +335,185 @@ export const data = [
       },
     ],
     uuid: "550e8400-e29b-41d4-a716-446655440019",
+  },
+  {
+    name: "Marble Caves",
+    location: "General Carrera Lake",
+    country: "Chile",
+    continent: "South America",
+    is_open_to_public: true,
+    details: [
+      {
+        fun_fact:
+          "The caves have been naturally sculpted by water over 6,000 years.",
+      },
+      {
+        description:
+          "Surreal swirling patterns of blue and white marble carved by glacial waters, accessible only by boat.",
+      },
+    ],
+    uuid: "550e8400-e29b-41d4-a716-446655440020",
+  },
+  {
+    name: "Lake Natron",
+    location: "Arusha",
+    country: "Tanzania",
+    continent: "Africa",
+    is_open_to_public: true,
+    details: [
+      {
+        fun_fact:
+          "Its waters can calcify animals, giving them a mummified appearance.",
+      },
+      {
+        description:
+          "An eerie red-hued lake known for its high alkalinity and otherworldly scenery, often resembling Mars.",
+      },
+    ],
+    uuid: "550e8400-e29b-41d4-a716-446655440021",
+  },
+  {
+    name: "Spotted Lake",
+    location: "British Columbia",
+    country: "Canada",
+    continent: "North America",
+    is_open_to_public: false,
+    details: [
+      {
+        fun_fact:
+          "The lake's 'spots' are caused by varying concentrations of minerals.",
+      },
+      {
+        description:
+          "A sacred lake to Indigenous peoples, marked by circular mineral deposits that appear in summer.",
+      },
+    ],
+    uuid: "550e8400-e29b-41d4-a716-446655440022",
+  },
+  {
+    name: "Blue Eye Spring",
+    location: "Sarandë",
+    country: "Albania",
+    continent: "Europe",
+    is_open_to_public: true,
+    details: [
+      {
+        fun_fact:
+          "No one knows exactly how deep the spring is—divers have reached 50 meters without touching the bottom.",
+      },
+      {
+        description:
+          "A mesmerizing natural spring with crystal-clear, vibrant blue waters that resemble a human iris.",
+      },
+    ],
+    uuid: "550e8400-e29b-41d4-a716-446655440023",
+  },
+  {
+    name: "Boiling Lake",
+    location: "Morne Trois Pitons National Park",
+    country: "Dominica",
+    continent: "North America",
+    is_open_to_public: true,
+    details: [
+      {
+        fun_fact:
+          "It is the second-largest hot lake in the world and reaches near-boiling temperatures.",
+      },
+      {
+        description:
+          "A steamy, bubbling lake surrounded by volcanic terrain, located deep in a remote rainforest.",
+      },
+    ],
+    uuid: "550e8400-e29b-41d4-a716-446655440024",
+  },
+  {
+    name: "Dragon's Blood Trees Plateau",
+    location: "Diksam Plateau",
+    country: "Yemen",
+    continent: "Asia",
+    is_open_to_public: true,
+    details: [
+      {
+        fun_fact:
+          "The sap from the tree is red and used for dyes, incense, and medicine.",
+      },
+      {
+        description:
+          "An ancient forest of umbrella-shaped trees, unique to Socotra and critical to the island's ecosystem.",
+      },
+    ],
+    uuid: "550e8400-e29b-41d4-a716-446655440025",
+  },
+  {
+    name: "Richat Structure",
+    location: "Adrar Plateau",
+    country: "Mauritania",
+    continent: "Africa",
+    is_open_to_public: true,
+    details: [
+      {
+        fun_fact:
+          "Also called the Eye of the Sahara, it’s visible from space due to its concentric rings.",
+      },
+      {
+        description:
+          "A massive circular geological formation in the desert, once thought to be an asteroid impact site.",
+      },
+    ],
+    uuid: "550e8400-e29b-41d4-a716-446655440026",
+  },
+  {
+    name: "Lake Hillier",
+    location: "Middle Island",
+    country: "Australia",
+    continent: "Oceania",
+    is_open_to_public: false,
+    details: [
+      {
+        fun_fact:
+          "The lake stays pink even when removed and placed in a container.",
+      },
+      {
+        description:
+          "A bubblegum-pink saline lake near the southern coast, thought to get its hue from algae and bacteria.",
+      },
+    ],
+    uuid: "550e8400-e29b-41d4-a716-446655440027",
+  },
+  {
+    name: "Hverir Geothermal Area",
+    location: "Mývatn",
+    country: "Iceland",
+    continent: "Europe",
+    is_open_to_public: true,
+    details: [
+      {
+        fun_fact:
+          "You can witness boiling mud pots and fumaroles releasing sulfurous steam across the area.",
+      },
+      {
+        description:
+          "A Martian-like landscape filled with bubbling mud, steaming vents, and vivid mineral colors.",
+      },
+    ],
+    uuid: "550e8400-e29b-41d4-a716-446655440028",
+  },
+  {
+    name: "Valley of the Moon",
+    location: "Wadi Rum",
+    country: "Jordan",
+    continent: "Asia",
+    is_open_to_public: true,
+    details: [
+      {
+        fun_fact:
+          "Used as a filming location for movies like *The Martian* and *Dune* due to its alien terrain.",
+      },
+      {
+        description:
+          "A desert valley with dramatic sandstone formations, ancient petroglyphs, and stunning night skies.",
+      },
+    ],
+    uuid: "550e8400-e29b-41d4-a716-446655440029",
   }
 ]
